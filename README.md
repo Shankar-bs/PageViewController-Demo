@@ -7,4 +7,4 @@ Full Demo is explained here
   
   Demo Example
   
-  <img src="https://slicode.com/wp-content/uploads/2020/03/ezgif.com-optimize.gif" width="300" height="660">
+  <img src="https://i1.wp.com/slicode.com/wp-content/uploads/2020/03/ezgif.com-optimize.gif?fit=470%2C1024&ssl=1" width="300" height="660">
