@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PageViewController_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XUA-4f-jE8" userLabel="PageControllerHolderView">
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="XUA-4f-jE8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ABu-BY-B2x"/>
+                            <constraint firstItem="XUA-4f-jE8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ftr-Ip-5c9"/>
+                            <constraint firstItem="XUA-4f-jE8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Jbk-fs-lxO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XUA-4f-jE8" secondAttribute="trailing" constant="20" id="SHe-Hj-LWI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControllerHolderView" destination="XUA-4f-jE8" id="3RC-CH-k6m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-87" y="92"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="93V-gQ-zUX">
+            <objects>
+                <viewController storyboardIdentifier="PageViewController" id="afh-Ma-1mR" customClass="PageViewController" customModule="PageViewController_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vav-gW-xtU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Page Index: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Abj-hj-z69">
+                                <rect key="frame" x="134" y="64" width="146" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="RU2-yP-SsT">
+                                <rect key="frame" x="20" y="96.5" width="374" height="765.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <mutableString key="text">"The minute I saw her, I knew I wanted to raise her and be there for her even though I knew the road to recovery wouldn’t always be easy," Aardema told "Good Morning America."
+
+Aardema now takes care of Rae full time and loves having Rae in her life.
+
+As Rae's wound from surgery began to heal, her right ear kept rising and now sits on the top of her head.
+
+There's no name for the condition Rae has -- it was just a "crazy accident" at birth, according to Aardema.
+
+Everyone at the animal hospital started calling Rae a "unicorn" which is how she got her adorable nickname. Rae started getting attention after a viral video on the app TikTok.
+
+The video posted just a few days ago, already has over 2.5 million views and nearly 500,000 likes. Since her viral video, Rae now has almost 9,000 followers on Instagram.
+
+It's safe to say everyone has fallen in love with this unique pup.
+
+"She’s amazingly brave tough little girl who has the most confidence of any puppy I’ve known," Aardema said.</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RU2-yP-SsT" firstAttribute="leading" secondItem="jrC-Xq-dYN" secondAttribute="leading" constant="20" id="74U-z6-kE8"/>
+                            <constraint firstItem="Abj-hj-z69" firstAttribute="centerX" secondItem="vav-gW-xtU" secondAttribute="centerX" id="QN1-rD-WhX"/>
+                            <constraint firstItem="RU2-yP-SsT" firstAttribute="bottom" secondItem="jrC-Xq-dYN" secondAttribute="bottom" id="VkL-oM-2lh"/>
+                            <constraint firstItem="RU2-yP-SsT" firstAttribute="top" secondItem="Abj-hj-z69" secondAttribute="bottom" constant="2.5" id="i6I-7N-7M7"/>
+                            <constraint firstItem="jrC-Xq-dYN" firstAttribute="trailing" secondItem="RU2-yP-SsT" secondAttribute="trailing" constant="20" id="pqV-pY-Bx9"/>
+                            <constraint firstItem="Abj-hj-z69" firstAttribute="top" secondItem="jrC-Xq-dYN" secondAttribute="top" constant="20" id="xdD-yH-wVX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jrC-Xq-dYN"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageContentTextView" destination="RU2-yP-SsT" id="CAF-uu-8PC"/>
+                        <outlet property="pageIndexLabel" destination="Abj-hj-z69" id="SKB-yE-NQT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bin-YN-30G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704.34782608695662" y="91.741071428571431"/>
+        </scene>
+    </scenes>
+</document>
